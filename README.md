@@ -1,5 +1,7 @@
 # actigraphy-frailty
-repository to reproduce results for frailty prediction from actigraphy data
+Repository to reproduce results for frailty prediction from actigraphy data. This project aims to use machine learning techniques to build predictive models of frailty (frailty trait scale, fried frailty score, and rockwood frailty index) from activity data derived from wearable devices. 
+
+
 
 results included in repo have been generated using R 4.1.2 and xgboost 1.5.2.1 on a macOS 12.3.1 system.
 
