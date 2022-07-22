@@ -22,7 +22,7 @@ results included in repo have been generated using R 4.1.2 and xgboost 1.5.2.1 o
 ├── figures       <- Main figures included with the publication reproduced using included scripts
 ├── results       <- Results files on each predictive task (not included to save space)
 └── scripts       <- Scripts used to process data, create analysis results, and produce figures
-    ├── data_processing.R        <- from raw data creates organized_data.rda for easier analysis
+    ├── data_processing.R        <- from raw data creates organized_data.rda
     ├── analysis.R.              <- generates xgboost predictive models and some univariate analysis (results saved to results folder)
     └── figures.R.               <- produces main figures from the previously generated results files
 ```
