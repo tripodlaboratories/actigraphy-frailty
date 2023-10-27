@@ -3,8 +3,7 @@ library(xgboost)
 library(caret)
 library(Metrics)
 
-datapath = "./submission_materials"
-datapath = "./"
+datapath = "./actigraphy-frailty"
 
 #load in previously processed data
 load(sprintf("%s/data/organized_data.rda",datapath))

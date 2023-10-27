@@ -4,8 +4,7 @@ library(ggpmisc)
 library(ggthemes)
 library(reshape2)
 
-datapath = "./submission_materials"
-datapath = "./"
+datapath = "./actigraphy-frailty"
 
 load(sprintf("%s/results/all_results.rda", datapath))
 #load in previously processed data

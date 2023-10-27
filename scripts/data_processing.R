@@ -3,6 +3,7 @@ library(openxlsx)
 library(missForest)
 
 datapath = "./actigraphy-frailty/"
+
 temp = read.xlsx(sprintf('%s/data/BD STANFORD 20_06_01.xlsx', datapath), 1)
 ids=temp[,1]
 data=temp[,-1]
