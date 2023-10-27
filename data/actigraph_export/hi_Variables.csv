@@ -1,0 +1,25 @@
+Variable,Value
+Energy Expenditure Algorithm:,Freedson Combination (1998)
+
+Freedson (1998) Bout Parameters
+Bout Name:,Freedson (1998)
+Minimum Length:,10,Minutes
+Minimum Count Value:,1952,Counts Per Minute
+Drop Time:,2,Minutes
+Vector magnitude?,False
+
+Sedentary Bout Parameters
+Minimum Length:,10,Minutes
+Minimum Count Value:,0,Counts Per Minute
+Drop Time:,0,Minutes
+Vector magnitude?,False
+
+Cut Point Values
+Sedentary,0,to,99
+Light,100,to,1951
+Moderate,1952,to,5724
+Vigorous,5725,to,9498
+Very Vigorous,9499,and above,
+
+MVPA Minimum Count,1952
+
